@@ -15,6 +15,7 @@ public class DynamicTable {
 		WebDriver driver;
 	//	System.setProperty("webdriver.gecko.driver", "C:/SELENIUM/Browsers/chromedriver.exe");
 	//Initialize the Web Driver;	
+		//Perfect WebDriver
 		driver = new FirefoxDriver();
 		driver.get("https://www.redbus.in/");
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
